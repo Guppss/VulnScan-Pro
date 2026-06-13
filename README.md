@@ -28,7 +28,6 @@ Designed for **authorised security assessments, educational research, and defens
 | **Filtering** | Filter by severity, host, port, and service |
 | **Recommendations** | Actionable remediation advice for every finding |
 | **Scheduling** | Recurring scan scheduler |
-| **Dark Theme** | Cybersecurity-grade dark UI with cyan accent |
 
 ---
 
