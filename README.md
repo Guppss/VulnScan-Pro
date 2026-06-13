@@ -31,6 +31,9 @@ Designed for **authorised security assessments, educational research, and defens
 
 ---
 
+## Screenshot
+![Dashboard](screenshot.png)
+
 ## Installation
 
 ### Prerequisites
