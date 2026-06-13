@@ -1,3 +1,7 @@
+![VulnScan Pro](thumbnail.png)
+
+
+
 # ⚡ VulnScan Pro
 
 A professional cybersecurity vulnerability scanner built with Python 3.13 and PyQt6.
