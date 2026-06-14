@@ -261,7 +261,7 @@ class ScanPage(QWidget):
             thread_count=self._thread_slider.value(),
             timeout=self._timeout_spin.value(),
             detect_services=self._detect_services.isChecked(),
-            scan_name=f"Scan {datetime.now().strftime('%H:%M:%S')}",
+            scan_name=f"Scan {target_text} {datetime.now().strftime('%Y-%m-%d')}",
         )
 
         scan_cfg = {

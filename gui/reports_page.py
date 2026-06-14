@@ -161,8 +161,10 @@ class ReportsPage(QWidget):
 
         REPORTS_DIR.mkdir(parents=True, exist_ok=True)
         scan = db_manager.get_scan(scan_id)
-        safe_name = (scan.get("name", scan_id[:8]) if scan else scan_id[:8]).replace(" ", "_")
-        default_name = str(REPORTS_DIR / f"vulnscan_{safe_name}.pdf")
+        scan_date = (scan.get("scan_date", "")[:10] if scan else "")
+        safe_name = (scan.get("name", scan_id[:8]) if scan else scan_id[:8])
+        safe_name = safe_name.replace(" ", "_").replace(":", "-")
+        default_name = str(REPORTS_DIR / f"VulnScan_{safe_name}_{scan_date}.pdf")
 
         path, _ = QFileDialog.getSaveFileName(
             self, "Save PDF Report", default_name, "PDF Files (*.pdf)"

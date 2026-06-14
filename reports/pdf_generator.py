@@ -31,14 +31,14 @@ from core.risk_calculator import RiskCalculator
 from utils.logger import logger
 
 # ── Colour palette ─────────────────────────────────────────────────────────────
-C_BG_DARK = colors.HexColor("#0a0e1a")
-C_BG_MID = colors.HexColor("#161b22")
-C_BORDER = colors.HexColor("#21262d")
+C_BG_DARK = colors.HexColor("#ffffff")
+C_BG_MID = colors.HexColor("#f0f0f0")
+C_BORDER = colors.HexColor("#cccccc")
 C_CYAN = colors.HexColor("#00d4ff")
 C_GREEN = colors.HexColor("#00c853")
 C_WHITE = colors.white
-C_LIGHT = colors.HexColor("#e6edf3")
-C_MUTED = colors.HexColor("#8b949e")
+C_LIGHT = colors.HexColor("#111111")
+C_MUTED = colors.HexColor("#555555")
 C_CRITICAL = colors.HexColor("#ff0055")
 C_HIGH = colors.HexColor("#ff4444")
 C_MEDIUM = colors.HexColor("#ffb800")
