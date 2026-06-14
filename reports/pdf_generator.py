@@ -288,13 +288,13 @@ class _DocBuilder:
             rows.append([
                 str(i),
                 Paragraph(v.get("cve_id", "N/A"), self.styles["VSMono"]),
-                Paragraph(v["name"][:60], self.styles["VSBody"]),
+                Paragraph(v["name"], self.styles["VSBody"]),
                 f"{v['host']}:{v['port']}",
                 v["severity"],
                 f"{v.get('cvss_score', 0):.1f}",
             ])
 
-        col_w = [1 * cm, 4 * cm, 6.5 * cm, 4 * cm, 2.5 * cm, 1.5 * cm]
+        col_w = [0.8 * cm, 3.5 * cm, 8.5 * cm, 3 * cm, 2 * cm, 1.7 * cm]
         tbl = Table(rows, colWidths=col_w, repeatRows=1)
         tbl.setStyle(self._findings_table_style(vulns))
         st.append(tbl)
