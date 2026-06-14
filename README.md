@@ -4,6 +4,13 @@
 
 # ⚡ VulnScan Pro
 
+
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat-square&logo=python)
+![PyQt6](https://img.shields.io/badge/PyQt6-6.6+-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-cyan?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat-square&logo=windows)
+![Version](https://img.shields.io/badge/Version-1.0-orange?style=flat-square)
+
 A professional cybersecurity vulnerability scanner built with Python 3.13 and PyQt6.
 Designed for **authorised security assessments, educational research, and defensive cybersecurity**.
 
