@@ -1,28 +1,36 @@
-# Python
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.egg-info/
-dist/
-build/
 *.egg
 .eggs/
+dist/
+build/
+*.spec
 
-# Virtual environments
+# ── Virtual environments ──────────────────────────────────────────────────────
 venv/
 .venv/
 env/
 .env/
 
-# VulnScan Pro runtime files
+# ── VulnScan Pro runtime files ────────────────────────────────────────────────
 vulnscan.db
 schedules.json
 settings.json
 logs/
 reports_output/
 
-# IDE / OS
+# ── PyInstaller / Inno Setup build output ────────────────────────────────────
+dist/
+build/
+installer_output/
+*.spec
+upx.exe
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
